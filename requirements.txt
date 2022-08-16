@@ -1,0 +1,8 @@
+black
+disnake
+fire
+flask
+motor
+pymongo[srv]
+python-dotenv
+tomli

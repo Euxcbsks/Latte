@@ -1,0 +1,35 @@
+[cog]
+	# Cog file(s). Value should be full path from root dir of bot to file position without ".py" suffix.
+	# Ex: "cog_files/sample_cog_file"
+	files = []
+	
+	# Cog folder(s). Value should be full path from bot root dir to folder position. Suffix "/" if optional
+	# Ex: "sample_cog_folder/" or "sample_cog_folder"
+	folders = [
+		"lrb_background",
+		"lrb_command"
+	]
+
+# The intents configured for this bot. Check https://docs.disnake.dev/en/stable/api.html#disnake.Intents for more infomation
+[intents]
+	# Intent base(method). Valid values: `all`, `default`, `none`
+	base = "default"
+	
+	# Intent flags(attributes). Value should be a boolen(true or false)
+	# Ex: `dm_messages = true`, this will overwrite the `dm_messages` flag value to true of the base intent
+	# For all available flags, please check https://docs.disnake.dev/en/stable/api.html#disnake.Intents
+	[intents.flags]
+
+[server]
+	# Default language when join a new server
+	default_lang_code = "en"
+
+[misc]
+	# The user IDs that owns the bot.
+	owner_ids = []
+	# Bot color in hex, usually used for embed color(must start with `#` or `0x`)
+	color = "0x66E8E4"
+
+[dev]
+	# The list of IDs of the guilds where you’re going to test your application commands.
+	test_guilds = []
